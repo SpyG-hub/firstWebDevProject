@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+
+}
+table {
+  width: 60%;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+h1, h2 {
+  background-color: papayawhip;
+  color: indianred;
+  font-family: fantasy;
+  text-align: center;
+}
+
+div.article {
+  height: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#specialHeader {
+  background-color: seashell;
+  color: cadetblue;
+  font-family: fantasy;
+  text-align: center;
+}
+
+#moon {
+  background-color: grey;
+  color: #789a9c;
+  font-family: cursive;
+  text-align: center;
+}
+
+#bahamas {
+  background-color: #f0b222;
+  color: #ff4040;
+  font-family: 'lobster', sans-serif;
+  text-align: center;
+}
+
+#home {
+  background-color: #4f81ff;
+  color: #9247de;
+  font-family: 'Pacifico';
+  text-align: center;
+}
+
+div.specialQuote{
+  background-color: coral;
+  width: 60%;
+  height: 100px;
+  margin: auto;
+  padding: 15px;
+  overflow: scroll;
+  font-family: 'Arvo';
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+span.specialname {
+  color:green;
+  background-color: yellow;
+}
+
+span.beginningCharacter {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: algerian, courier;
+  line-height: 80%;
+}
+
+img.floatleft {
+  float: left;
+  padding:15px;
+}
+
+img.floatright {
+  float: right;
+  padding: 15px;
+}
+
+form {
+  background-color: papayawhip;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+p.form-prompt {
+  font-size: 24px;
+  
+}
